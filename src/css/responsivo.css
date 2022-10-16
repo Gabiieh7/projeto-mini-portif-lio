@@ -1,0 +1,10 @@
+@media (max-width:420px){
+    main{
+        width: 280px;
+        height: 470px;
+    }
+    .sobre, .contato{
+        max-height: 200px;
+    }
+   
+}

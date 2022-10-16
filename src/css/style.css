@@ -1,0 +1,140 @@
+
+body {
+    background: url(../imagens/fundo-site.jpg) no-repeat fixed;
+    background-size: cover;
+    min-height:100vh;
+    text-align:center;
+    color:#dadadaf1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+main{
+    width:350px;
+    max-height:500px;
+    border:3px outset #676767;
+    border-radius: 12px;
+    transition: transform border border-radius 5s ease-in;
+    background-color: rgb(22, 22, 23);
+    position: absolute;
+}
+main:hover{
+    transform:scale(1.05);
+    border:5px inset #b7b3b3;
+    border-radius: 15px;
+}
+.header{
+    padding: 20px 0;
+    border-radius: 10px  10px 0 0;
+}
+.header img{
+    width: 100px;
+    border-radius: 50%;
+    border: 7px double #dadadaf1;
+}
+h1{
+    margin: 5px 0 7px 0;
+    font-size: 23px;
+}
+h2{
+    font-size: 16px;
+    opacity: 0.8;
+}
+h3{
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-decoration: underline rgba(247, 244, 244, 0.359);
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    display: block;
+    width: 50%;
+    cursor: pointer;
+    transform: background-color 6s ease-in-out;
+}
+li img{
+    width: 35px;
+    height: 30px;
+    margin-top: 3px;
+}
+li:hover{
+    background-color:#dadada84 ;
+}
+.sobre, .contato{
+    max-height: 250px;
+    overflow:auto;
+    background-color:#8c8c8c6b;
+    padding: 25px 10px 10px 10px ;
+    border-radius: 0 0 10px 10px;
+}
+.sobre p{
+    font-size: 15px;
+    line-height: 19px;
+    text-align: left;
+}
+span{
+    text-transform:uppercase;
+}
+.devquest{
+    color:rgb(159, 57, 255);
+}
+.linguagens{
+    color:rgb(42, 184, 174);
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-left: 17px;
+    border-radius: 10px;
+    width: 90%;
+    height: 40px;
+    border: solid 3px rgb(0, 0, 0);
+    cursor: pointer;
+}
+button:hover{
+    border: double 7px black;
+}
+svg{
+    width: 20px;
+}
+a{
+    text-decoration: none;
+    color:rgb(0, 0, 0) ;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.whatsapp{
+    background-color: #2f9621;
+}
+.instagram{
+    background-color: rgb(142, 34, 104);
+}
+.linkedin{
+    background-color: #0a6194;
+}
+.github{
+    background-color: rgb(24, 24, 24);
+}
+.selecionado{
+    background-color: #8c8c8c6b;
+}
+.nao-selecionado{
+    display: none;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    background-color:rgb(24, 24, 24);
+}
+::-webkit-scrollbar-button{
+    height: 20px;
+    background-color: black;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color:#fbf5f5a9;
+}
