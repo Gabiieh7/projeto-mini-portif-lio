@@ -63,14 +63,18 @@ li img{
 li:hover{
     background-color:#dadada84 ;
 }
-.sobre, .contato{
+.aba.selecionado{
+    background-color: #8c8c8c6b;
+}
+.informacao{
     max-height: 250px;
     overflow:auto;
     background-color:#8c8c8c6b;
     padding: 25px 10px 10px 10px ;
     border-radius: 0 0 10px 10px;
+    display: none;
 }
-.sobre p{
+#informacao-sobre-mim p{
     font-size: 15px;
     line-height: 19px;
     text-align: left;
@@ -120,11 +124,8 @@ a{
 .github{
     background-color: rgb(24, 24, 24);
 }
-.selecionado{
-    background-color: #8c8c8c6b;
-}
-.nao-selecionado{
-    display: none;
+.informacao.selecionado{
+    display: block;
 }
 ::-webkit-scrollbar{
     width: 10px;
